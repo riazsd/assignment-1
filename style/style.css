@@ -1,0 +1,79 @@
+
+.table{
+    text-align: center;
+    background-image: url(/assets/Hero-bg.png);
+    padding: 26px 221px 44px 221px;
+    gap: 30px;
+    width: 1440px;
+    height: 652px;
+}
+.table .image{
+       
+    margin-top: 20px;
+     
+}
+.table .tag{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 68px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 24px 0;
+}
+.table .tag-p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 24px 0;
+    opacity: 0.7;
+}
+.table .btn{
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    border-radius: 8px;
+    padding: 21px 24px 21px 24px;
+    margin: 32px 0;
+
+    background: rgb(13, 19, 33);
+}
+.video{
+    color: rgb(13, 19, 33);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    text-align: center;
+    margin: 24px 0;
+
+
+}
+.video .video-tag{
+    color: rgb(13, 19, 33);
+    margin: 24px o;
+
+}
+.video .video-p{
+    color: rgb(13, 19, 33);
+
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.video .video-img{
+    margin: 10px 0;
+    border-radius: 16px;
+}
