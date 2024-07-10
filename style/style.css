@@ -81,13 +81,128 @@
 
 
 }
-.skill{
+.skill-container .skill-tittle{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.skill-container .skill-description{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    opacity: 0.7;
+}
+.skill-container .skill-sub{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration-line: underline;
+}
+.skill-container .box-1{
+    position: static;
+    width: 284px;
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 32px 0px;
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+}
+
+.skill-container .box-2{
+    position: static;
+    display: flex;
+    width: 284px;
+    height: 220px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 32px 0px;
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+}
+.skill-container .box-3{
+    position: static;
+    display: flex;
+    width: 284px;
+    height: 220px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 32px 0px;
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+}
+   
+
+.skill .sub-skill{
+    margin: 48px 0px;
     text-align: center;
+}
+.skill .sub-skill .section-tittle{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.skill .sub-skill .skill-description{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
 }
 .skill-container{
     display: flex;
-    justify-content: space-evenly;
-    gap: 0;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 1140px;
+    height: 300px;
+    justify-content: flex-start;
+    align-items: center;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 48px 0px 0px 450px;
+    gap: 20px;
+
 }
 .web{
     display: flex;
@@ -327,4 +442,35 @@
     letter-spacing: 0%;
     text-align: center;
     padding: 17px 20px 17px 20px;
+}
+.footer{
+
+    position: static;
+    width: 1140px;
+    height: 36px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 32px 0px 0px 300px; 
+}
+.footer .place{
+    position: static;
+    width: 456px;
+    height: 24px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;
 }
